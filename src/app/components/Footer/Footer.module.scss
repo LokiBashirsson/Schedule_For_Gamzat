@@ -1,0 +1,30 @@
+.Footer {
+    border-radius: 12px;
+    background-color: rgb(48, 137, 173);
+    padding: 16px;
+    margin: 12px 0 0 0;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        &:last-child {
+            text-align: right;
+        }
+
+        a {
+            transition: all 0.4s;
+
+            &:hover {
+                color: black;
+                transition: all 0.24s;
+            }
+        }
+    }
+}
